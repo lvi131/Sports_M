@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Nunito Sans", sans-serif;
+}
+
+.navbar {
+	background-color: #2b2d2f;
+	height: 80px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.menu-icon {
+	margin-right: 2rem;
+	font-size: 2rem;
+	background: none;
+	cursor: pointer;
+	color: white;
+}
+
+.nav-menu {
+	background-color: #2b2d2f;
+	width: 250px;
+	height: 100vw;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: -100%;
+}
+
+.nav-menu-active {
+	background-color: #2b2d2f;
+}
+
+.navlinks {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	list-style: none;
+	height: 60px;
+	padding: 8px 16px 8px 16px;
+	font-size: 1.2rem;
+}
+
+.navlinks a {
+	text-decoration: none;
+	color: white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 16px;
+	border-radius: 4px;
+}
+
+.navlinks a:hover {
+	background-color: grey;
+}
+
+.nav-menu-items {
+	width: 100%;
+	padding: 0;
+}
+
+.teams-btn {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	padding: 8px 16px 8px 16px;
+	font-size: 1.2rem;
+	width: 100%;
+	height: 100%;
+}
+
+.btn {
+	color: white;
+	cursor: pointer;
+	font-family: "Nunito Sans", sans-serif;
+	color: white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 16px 8px 16px;
+	border-radius: 4px;
+	background-color: inherit;
+	font-size: 1.2rem;
+	border: none;
+	outline: none;
+}
+
+.MuiDialog-paperWidthSm {
+	width: 50vw;
+}
+
+.teams-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 2.6;
+	list-style: none;
+	font-size: 1.2rem;
+}
+.team-names a {
+	text-decoration: none;
+	color: black;
+}
